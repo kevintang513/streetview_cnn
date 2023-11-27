@@ -1,4 +1,4 @@
-# street_cnn
+# streetview_cnn
 CNN for reading street view images of building addresses.
 
 #### -- Project Status: Active
@@ -28,6 +28,9 @@ Add notes for files and directories to keep track of what they contain:
 
 ## Contact Details
 * Kevin Tang (kevin.tang513@gmail.com)
+* Daniel O'Brien (danobr2001@g.ucla.edu)
+* Isha Shah (ishashah146@gmail.com)
+* Shayan Saadat (ssaadat91@gmail.com)
 
 <!--
 

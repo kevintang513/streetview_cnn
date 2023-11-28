@@ -171,6 +171,9 @@ results/*
 plots/*
 images/*
 
+### Mac Finder Metadata ###
+.DS_Store
+
 ### Exceptions ###
 !data/.gitkeep
 !results/.gitkeep

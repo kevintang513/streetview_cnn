@@ -16,6 +16,8 @@ plotly = "*"
 rich = "*"
 scipy = "*"
 tqdm = "*"
+torch = "*"
+torchvision = "*"
 
 [dev-packages]
 

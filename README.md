@@ -5,26 +5,37 @@ CNN for reading street view images of building addresses.
 
 ## Detailed Project Description
 
-This is dummy text, replace me with a better description or remove the section entirely. Mollit eiusmod velit veniam dolore duis est do velit quis eu eiusmod ad sit ullamco velit et et labore ut duis in in sed tempor. Quis sit proident dolor duis in laborum aliqua qui ut culpa consequat dolore dolor elit irure in in culpa laboris in incididunt sunt minim.
+This project explores different implementations of convolutional neural networks for the task of reading street view images of building addresses. We used PyTorch to implement an adaptation of the LeNet architecture in addition to a basic exploratory CNN. The data
 
 ## Project Layout
 
-Run `tree street_cnn/ -A -L x` in the directory above the project to get the project layout where `-L` is the directory level to go down. An example: 
+Run `tree streetview_cnn/ -A -L x` in the directory above the project to get the project layout where `-L` is the directory level to go down. An example: 
 ```
-street_cnn/
-├── data
-├── street_cnn.py
-├── notebooks
-├── Pipfile
-├── plots
+streetview_cnn/
 ├── README.md
+├── Project.ipynb
+├── Pipfile
+├── Pipfile.lock
+├── data
+│   ├── test_32x32.mat
+│   └── train_32x32.mat
+├── models
+│   ├── LeNet_cnn.pth
+│   └── basic_cnn.pth
 └── results
+    ├── Confusion_BasicCNN.png
+    ├── Confusion_LeNet.png
+    ├── Error_Examples_BasicCNN.png
+    └── Error_Examples_LeNet.png
 ```
 
 Add notes for files and directories to keep track of what they contain:
- - `street_cnn.py`: Basic project hello world.
+ - `Project.ipynb`: Basic project hello world.
  - `data`: Directory where the data is stored.
- - etc.
+ - `models`: Directory for saved models.
+ - `results`: Directory for resulting plots and analysis of model performance.
+
+
 
 ## Contact Details
 * Kevin Tang (kevin.tang513@gmail.com)
@@ -38,5 +49,5 @@ Template Notes:
  - Markdown documentation and cheatsheets:
    - https://www.markdownguide.org/cheat-sheet/
    - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-
+   
 -->

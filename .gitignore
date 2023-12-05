@@ -167,9 +167,6 @@ GitHub.sublime-settings
 ### Folders ###
 backup/*
 data/*
-results/*
-plots/*
-images/*
 
 ### Mac Finder Metadata ###
 .DS_Store

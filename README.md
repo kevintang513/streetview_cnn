@@ -5,7 +5,7 @@ CNN for reading street view images of building addresses.
 
 ## Detailed Project Description
 
-This project explores different implementations of convolutional neural networks for the task of reading street view images of building addresses. We used PyTorch to implement an adaptation of the LeNet architecture in addition to a basic exploratory CNN. The data
+This project explores different implementations of convolutional neural networks for the task of reading street view images of building addresses. We used PyTorch to implement an adaptation of the LeNet architecture in addition to a basic exploratory CNN.
 
 ## Project Layout
 

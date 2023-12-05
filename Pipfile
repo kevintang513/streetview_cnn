@@ -18,6 +18,8 @@ scipy = "*"
 tqdm = "*"
 torch = "*"
 torchvision = "*"
+seaborn = "*"
+scikit-learn = "*"
 
 [dev-packages]
 

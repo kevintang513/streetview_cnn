@@ -17,8 +17,6 @@ streetview_cnn/
 ├── Pipfile
 ├── Pipfile.lock
 ├── data
-│   ├── test_32x32.mat
-│   └── train_32x32.mat
 ├── models
 │   ├── LeNet_cnn.pth
 │   └── basic_cnn.pth
@@ -31,7 +29,7 @@ streetview_cnn/
 
 Add notes for files and directories to keep track of what they contain:
  - `Project.ipynb`: Notebook used for downloading data, training models, and analyzing results.
- - `data`: Directory where the data is stored.
+ - `data`: Directory for data, will be automatically filled after running `Project.ipynb`.
  - `models`: Directory for saved models.
  - `results`: Directory for resulting plots and analysis of model performance.
 

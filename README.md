@@ -30,7 +30,7 @@ streetview_cnn/
 ```
 
 Add notes for files and directories to keep track of what they contain:
- - `Project.ipynb`: Basic project hello world.
+ - `Project.ipynb`: Notebook used for downloading data, training models, and analyzing results.
  - `data`: Directory where the data is stored.
  - `models`: Directory for saved models.
  - `results`: Directory for resulting plots and analysis of model performance.

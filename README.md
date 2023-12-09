@@ -37,7 +37,7 @@ This repository uses Pipenv to manage the virtual environment by using the Pipfi
 1. Start the virtual environment as specified:
     * NOTE: Our environment uses Python 3.8 so it must be installed if not present on your local machine.
         * https://www.python.org/downloads/release/python-380/
-    * NOTE: If `pipenv` is not installed, it can be installed here:
+    * NOTE: If pipenv is not installed, it can be installed here:
         * https://pypi.org/project/pipenv/. 
     * Use terminal to navigate into your local copy of the repository, and run `pipenv shell`
 2. Open JupyterLab (or any IDE of your choice): 

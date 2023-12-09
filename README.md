@@ -52,6 +52,20 @@ This repository uses Pipenv to manage the virtual environment by using the Pipfi
     * Press (Control+C) in the terminal window (if using MacOS).
 5. You can now close the virtual environment:
     * Run `exit` within the terminal window.
+  
+## Results & Analysis
+
+Between the two tested models, the variation on LeNet outperformed the basic CNN architecture at an accuracy of 88.9% to 87.67%. We believe this improvement, while marginal, is evidence of a reasonable tradeoff between computational resources and complexity (more fully connected layers in the LeNet model) versus overfitting. 
+An interesting aspect of the models to analyze is the misclassification of digits. For one, the most common misclassification was of the digit ‘3’ in both models, as can be seen in the following confusion matrices.
+Basic CNN                                    |                                 LeNet CNN
+:-------------------------------------------:|:----------------------------------------:
+![Alt text](results/Confusion_BasicCNN.png)  |  ![Alt text](results/Confusion_LeNet.png)
+
+However, due to the uninterpretable nature of CNN layers, it's hard to pinpoint exactly why exactly that is the case. However, from a qualitative standpoint, the typographical nature of the ‘9’ digit is very similar to the ‘3’ digit, where if the top curve of ‘3’ is close to the center, it can look like a closed loop that forms a ‘9’. Furthermore, the slight increase in saturation of the colors for the LeNet confusion matrix corresponds to the increased accuracy in the model.  
+
+The achieved accuracy also was in line with other models examined during preliminary literature review. This suggests a degree of interoperability of the images at such a small scale and with the phenomena discussed in the introduction. A sample of the misclassified images from the better performing LeNet model can be seen below:
+![Alt text](results/Error_Examples_LeNet.png)
+A few commonalities can be observed here. For one, most misclassifications come when there are still multiple digits within the cropped and centered source image. Thus, we can glean that features are detected from the non-centered images that confuse the CNN, leading to a misclassification. Besides that, misclassified images continuing a singular digit are frequently blurry to a degree that even a human would have trouble identifying. The takeaway here is that there is likely an upper bound on the possible accuracy for the dataset as a whole. 
 
 
 ## Contact Details

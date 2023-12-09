@@ -44,7 +44,7 @@ This repository uses Pipenv to manage the virtual environment by using the Pipfi
     * Use terminal to navigate into your local copy of the repository, and run `pipenv shell`
 2. Open JupyterLab (or any IDE of your choice): 
     * JupyterLab which is already included within the virtual environment so anyone can use this method regardless of what you have installed on your local machine. 
-        * Type “jupyter lab” into the terminal that you opened in step 2.
+        * Run `jupyter lab` in the terminal that you opened in step 2.
     * You could alternatively use any IDE of your choice, such as VS Code, as long as you ensure the virtual environment is properly activated.
 3. Run Project.ipynb:
    * Running the first two cells will download the data and thus fill the ‘data’ folder.
